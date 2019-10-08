@@ -14,7 +14,7 @@ suppressMessages(lapply(packages, require, character.only = TRUE))
 # Get available list of DHS datasets using rdhs
 set_rdhs_config(email = "work@samclark.net"
                 , project = "Admin-2 Small-area Estimates of Child Mortality"
-                , cache_path = "~/Dropbox/OSU/Research_IPR/AfricaAdmin2MR/" #C:/Users/chu.282.ASC/Dropbox/AfricaAdmin2Estimates/Data
+                , cache_path = "~/Dropbox/OSU/Research_IPR/AfricaAdmin2MR/"
                 , config_path = "rdhs.json"
                  , password_prompt=TRUE #unmute this when first running the code to enter password
                 , global = FALSE )
